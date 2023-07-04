@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ctaul.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet, </h1>
+
+        <div class="form-group">
+            <label for="productNameInput">product name</label><br>
+            <input type="text" id="productNameInput">
+        </div>
+
+
+        <div class="form-group">
+            <label for="productPriceInput">product price</label><br>
+            <input type="text" id="productPriceInput">
+        </div>
+
+
+        <div class="form-group">
+            <label for="productCategoryInput">product category</label><br>
+            <input type="text" id="productCategoryInput">
+        </div>
+
+
+        <div class="form-group">
+            <label for="productDescInput">product Desc</label> <br>
+            <input type="text" id="productDescInput">
+        </div>
+        <button id="addBtn" class="AddProduct" onclick="addProduct()">Add Product</button><br><br>
+        <input oninput="search(this.value)" type="text">
+        <br><br>
+ 
+        <table>
+            <thead>
+                <th>Index</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Category</th>
+                <th>Product Desc</th>
+                <th> UPdate</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="tabolBody">
+                
+            </tbody>
+
+        </table>
+
+    </div>
+   
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

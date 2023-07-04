@@ -1,0 +1,30 @@
+
+body{
+    background-color: rgb(20, 31, 31);
+}
+h1{
+    text-align: center;
+    color: rgb(248, 244, 244);
+}
+
+label{
+    color: rgb(255, 254, 254);
+}
+table{
+    
+    width: 90%;
+    margin-left: 5%;
+    border: 2px wheat solid;
+    color: rgb(231, 224, 224);
+}
+.form-group{
+    margin: 40px;
+}
+.AddProduct{
+    margin-left: 40px;
+}
+input{
+width: 100%;
+
+
+}
